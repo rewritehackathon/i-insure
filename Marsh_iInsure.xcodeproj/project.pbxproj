@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AC70F2822591FB2008F5971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F2722591FB2008F5971 /* AppDelegate.swift */; };
+		4AC70F2A22591FB2008F5971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F2922591FB2008F5971 /* ViewController.swift */; };
+		4AC70F2D22591FB2008F5971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC70F2B22591FB2008F5971 /* Main.storyboard */; };
+		4AC70F2F22591FB4008F5971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC70F2E22591FB4008F5971 /* Assets.xcassets */; };
+		4AC70F3222591FB4008F5971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC70F3022591FB4008F5971 /* LaunchScreen.storyboard */; };
+		4AC70F3D22591FB5008F5971 /* Marsh_iInsureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F3C22591FB5008F5971 /* Marsh_iInsureTests.swift */; };
+		4AC70F4822591FB5008F5971 /* Marsh_iInsureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F4722591FB5008F5971 /* Marsh_iInsureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AC70F3922591FB5008F5971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC70F1C22591FB2008F5971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC70F2322591FB2008F5971;
+			remoteInfo = Marsh_iInsure;
+		};
+		4AC70F4422591FB5008F5971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC70F1C22591FB2008F5971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC70F2322591FB2008F5971;
+			remoteInfo = Marsh_iInsure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AC70F2422591FB2008F5971 /* Marsh_iInsure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marsh_iInsure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC70F2722591FB2008F5971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AC70F2922591FB2008F5971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AC70F2C22591FB2008F5971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AC70F2E22591FB4008F5971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AC70F3122591FB4008F5971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AC70F3322591FB4008F5971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC70F3822591FB5008F5971 /* Marsh_iInsureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marsh_iInsureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC70F3C22591FB5008F5971 /* Marsh_iInsureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marsh_iInsureTests.swift; sourceTree = "<group>"; };
+		4AC70F3E22591FB5008F5971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC70F4322591FB5008F5971 /* Marsh_iInsureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marsh_iInsureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC70F4722591FB5008F5971 /* Marsh_iInsureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marsh_iInsureUITests.swift; sourceTree = "<group>"; };
+		4AC70F4922591FB5008F5971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC70F2122591FB2008F5971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC70F3522591FB5008F5971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC70F4022591FB5008F5971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC70F1B22591FB2008F5971 = {
+			isa = PBXGroup;
+			children = (
+				4AC70F2622591FB2008F5971 /* Marsh_iInsure */,
+				4AC70F3B22591FB5008F5971 /* Marsh_iInsureTests */,
+				4AC70F4622591FB5008F5971 /* Marsh_iInsureUITests */,
+				4AC70F2522591FB2008F5971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AC70F2522591FB2008F5971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC70F2422591FB2008F5971 /* Marsh_iInsure.app */,
+				4AC70F3822591FB5008F5971 /* Marsh_iInsureTests.xctest */,
+				4AC70F4322591FB5008F5971 /* Marsh_iInsureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AC70F2622591FB2008F5971 /* Marsh_iInsure */ = {
+			isa = PBXGroup;
+			children = (
+				4AC70F2722591FB2008F5971 /* AppDelegate.swift */,
+				4AC70F2922591FB2008F5971 /* ViewController.swift */,
+				4AC70F2B22591FB2008F5971 /* Main.storyboard */,
+				4AC70F2E22591FB4008F5971 /* Assets.xcassets */,
+				4AC70F3022591FB4008F5971 /* LaunchScreen.storyboard */,
+				4AC70F3322591FB4008F5971 /* Info.plist */,
+			);
+			path = Marsh_iInsure;
+			sourceTree = "<group>";
+		};
+		4AC70F3B22591FB5008F5971 /* Marsh_iInsureTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC70F3C22591FB5008F5971 /* Marsh_iInsureTests.swift */,
+				4AC70F3E22591FB5008F5971 /* Info.plist */,
+			);
+			path = Marsh_iInsureTests;
+			sourceTree = "<group>";
+		};
+		4AC70F4622591FB5008F5971 /* Marsh_iInsureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC70F4722591FB5008F5971 /* Marsh_iInsureUITests.swift */,
+				4AC70F4922591FB5008F5971 /* Info.plist */,
+			);
+			path = Marsh_iInsureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AC70F2322591FB2008F5971 /* Marsh_iInsure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC70F4C22591FB5008F5971 /* Build configuration list for PBXNativeTarget "Marsh_iInsure" */;
+			buildPhases = (
+				4AC70F2022591FB2008F5971 /* Sources */,
+				4AC70F2122591FB2008F5971 /* Frameworks */,
+				4AC70F2222591FB2008F5971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marsh_iInsure;
+			productName = Marsh_iInsure;
+			productReference = 4AC70F2422591FB2008F5971 /* Marsh_iInsure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AC70F3722591FB5008F5971 /* Marsh_iInsureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC70F4F22591FB5008F5971 /* Build configuration list for PBXNativeTarget "Marsh_iInsureTests" */;
+			buildPhases = (
+				4AC70F3422591FB5008F5971 /* Sources */,
+				4AC70F3522591FB5008F5971 /* Frameworks */,
+				4AC70F3622591FB5008F5971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC70F3A22591FB5008F5971 /* PBXTargetDependency */,
+			);
+			name = Marsh_iInsureTests;
+			productName = Marsh_iInsureTests;
+			productReference = 4AC70F3822591FB5008F5971 /* Marsh_iInsureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AC70F4222591FB5008F5971 /* Marsh_iInsureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC70F5222591FB5008F5971 /* Build configuration list for PBXNativeTarget "Marsh_iInsureUITests" */;
+			buildPhases = (
+				4AC70F3F22591FB5008F5971 /* Sources */,
+				4AC70F4022591FB5008F5971 /* Frameworks */,
+				4AC70F4122591FB5008F5971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC70F4522591FB5008F5971 /* PBXTargetDependency */,
+			);
+			name = Marsh_iInsureUITests;
+			productName = Marsh_iInsureUITests;
+			productReference = 4AC70F4322591FB5008F5971 /* Marsh_iInsureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC70F1C22591FB2008F5971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Valeria Torres-Olivares";
+				TargetAttributes = {
+					4AC70F2322591FB2008F5971 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4AC70F3722591FB5008F5971 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4AC70F2322591FB2008F5971;
+					};
+					4AC70F4222591FB5008F5971 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4AC70F2322591FB2008F5971;
+					};
+				};
+			};
+			buildConfigurationList = 4AC70F1F22591FB2008F5971 /* Build configuration list for PBXProject "Marsh_iInsure" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AC70F1B22591FB2008F5971;
+			productRefGroup = 4AC70F2522591FB2008F5971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AC70F2322591FB2008F5971 /* Marsh_iInsure */,
+				4AC70F3722591FB5008F5971 /* Marsh_iInsureTests */,
+				4AC70F4222591FB5008F5971 /* Marsh_iInsureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AC70F2222591FB2008F5971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC70F3222591FB4008F5971 /* LaunchScreen.storyboard in Resources */,
+				4AC70F2F22591FB4008F5971 /* Assets.xcassets in Resources */,
+				4AC70F2D22591FB2008F5971 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC70F3622591FB5008F5971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC70F4122591FB5008F5971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AC70F2022591FB2008F5971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC70F2A22591FB2008F5971 /* ViewController.swift in Sources */,
+				4AC70F2822591FB2008F5971 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC70F3422591FB5008F5971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC70F3D22591FB5008F5971 /* Marsh_iInsureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC70F3F22591FB5008F5971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC70F4822591FB5008F5971 /* Marsh_iInsureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AC70F3A22591FB5008F5971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC70F2322591FB2008F5971 /* Marsh_iInsure */;
+			targetProxy = 4AC70F3922591FB5008F5971 /* PBXContainerItemProxy */;
+		};
+		4AC70F4522591FB5008F5971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC70F2322591FB2008F5971 /* Marsh_iInsure */;
+			targetProxy = 4AC70F4422591FB5008F5971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AC70F2B22591FB2008F5971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC70F2C22591FB2008F5971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AC70F3022591FB4008F5971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC70F3122591FB4008F5971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AC70F4A22591FB5008F5971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AC70F4B22591FB5008F5971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AC70F4D22591FB5008F5971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C7KD3SL2R;
+				INFOPLIST_FILE = Marsh_iInsure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valeria.Marsh-iInsure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AC70F4E22591FB5008F5971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C7KD3SL2R;
+				INFOPLIST_FILE = Marsh_iInsure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valeria.Marsh-iInsure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AC70F5022591FB5008F5971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C7KD3SL2R;
+				INFOPLIST_FILE = Marsh_iInsureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valeria.Marsh-iInsureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marsh_iInsure.app/Marsh_iInsure";
+			};
+			name = Debug;
+		};
+		4AC70F5122591FB5008F5971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C7KD3SL2R;
+				INFOPLIST_FILE = Marsh_iInsureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valeria.Marsh-iInsureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marsh_iInsure.app/Marsh_iInsure";
+			};
+			name = Release;
+		};
+		4AC70F5322591FB5008F5971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C7KD3SL2R;
+				INFOPLIST_FILE = Marsh_iInsureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valeria.Marsh-iInsureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marsh_iInsure;
+			};
+			name = Debug;
+		};
+		4AC70F5422591FB5008F5971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C7KD3SL2R;
+				INFOPLIST_FILE = Marsh_iInsureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valeria.Marsh-iInsureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marsh_iInsure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AC70F1F22591FB2008F5971 /* Build configuration list for PBXProject "Marsh_iInsure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC70F4A22591FB5008F5971 /* Debug */,
+				4AC70F4B22591FB5008F5971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC70F4C22591FB5008F5971 /* Build configuration list for PBXNativeTarget "Marsh_iInsure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC70F4D22591FB5008F5971 /* Debug */,
+				4AC70F4E22591FB5008F5971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC70F4F22591FB5008F5971 /* Build configuration list for PBXNativeTarget "Marsh_iInsureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC70F5022591FB5008F5971 /* Debug */,
+				4AC70F5122591FB5008F5971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC70F5222591FB5008F5971 /* Build configuration list for PBXNativeTarget "Marsh_iInsureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC70F5322591FB5008F5971 /* Debug */,
+				4AC70F5422591FB5008F5971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AC70F1C22591FB2008F5971 /* Project object */;
+}
