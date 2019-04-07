@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20484FA86F6930E27981F83F /* Pods_Marsh_iInsure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED1CFB756AF35CC58735A71 /* Pods_Marsh_iInsure.framework */; };
 		4AC70F2822591FB2008F5971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F2722591FB2008F5971 /* AppDelegate.swift */; };
 		4AC70F2A22591FB2008F5971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F2922591FB2008F5971 /* ViewController.swift */; };
 		4AC70F2D22591FB2008F5971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC70F2B22591FB2008F5971 /* Main.storyboard */; };
@@ -14,6 +15,18 @@
 		4AC70F3222591FB4008F5971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC70F3022591FB4008F5971 /* LaunchScreen.storyboard */; };
 		4AC70F3D22591FB5008F5971 /* Marsh_iInsureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F3C22591FB5008F5971 /* Marsh_iInsureTests.swift */; };
 		4AC70F4822591FB5008F5971 /* Marsh_iInsureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F4722591FB5008F5971 /* Marsh_iInsureUITests.swift */; };
+		4AC70F56225930B4008F5971 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F55225930B4008F5971 /* HomeViewController.swift */; };
+		4AC70F5E22594723008F5971 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F5D22594723008F5971 /* StartViewController.swift */; };
+		4AC70F6022594A5D008F5971 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F5F22594A5D008F5971 /* LoginViewController.swift */; };
+		4AC70F6222594A9D008F5971 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F6122594A9D008F5971 /* SignUpViewController.swift */; };
+		4AC70F6422596029008F5971 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AC70F6322596029008F5971 /* GoogleService-Info.plist */; };
+		4AC70F6622598C0C008F5971 /* ProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F6522598C0C008F5971 /* ProfilesViewController.swift */; };
+		4AC70F6822598C2F008F5971 /* CurrentInsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F6722598C2F008F5971 /* CurrentInsuranceViewController.swift */; };
+		4AC70F6A22598C5C008F5971 /* AddInsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F6922598C5C008F5971 /* AddInsuranceViewController.swift */; };
+		4AC70F6C225A26E1008F5971 /* MainAccountHolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F6B225A26E1008F5971 /* MainAccountHolderViewController.swift */; };
+		4AC70F6E225A394A008F5971 /* SubProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC70F6D225A394A008F5971 /* SubProfilesViewController.swift */; };
+		5EA412B5C36A3A468A74B770 /* Pods_Marsh_iInsureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCFBC67D3977E985400AF0D /* Pods_Marsh_iInsureTests.framework */; };
+		8D9E2D8CEEEDEB3B2F8CE357 /* Pods_Marsh_iInsureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2064758C8787ED5572BBF1D2 /* Pods_Marsh_iInsureUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CCFBC67D3977E985400AF0D /* Pods_Marsh_iInsureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marsh_iInsureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2064758C8787ED5572BBF1D2 /* Pods_Marsh_iInsureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marsh_iInsureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC70F2422591FB2008F5971 /* Marsh_iInsure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marsh_iInsure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC70F2722591FB2008F5971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AC70F2922591FB2008F5971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,23 @@
 		4AC70F4322591FB5008F5971 /* Marsh_iInsureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marsh_iInsureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC70F4722591FB5008F5971 /* Marsh_iInsureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marsh_iInsureUITests.swift; sourceTree = "<group>"; };
 		4AC70F4922591FB5008F5971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC70F55225930B4008F5971 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4AC70F5D22594723008F5971 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		4AC70F5F22594A5D008F5971 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4AC70F6122594A9D008F5971 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4AC70F6322596029008F5971 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4AC70F6522598C0C008F5971 /* ProfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesViewController.swift; sourceTree = "<group>"; };
+		4AC70F6722598C2F008F5971 /* CurrentInsuranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentInsuranceViewController.swift; sourceTree = "<group>"; };
+		4AC70F6922598C5C008F5971 /* AddInsuranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInsuranceViewController.swift; sourceTree = "<group>"; };
+		4AC70F6B225A26E1008F5971 /* MainAccountHolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAccountHolderViewController.swift; sourceTree = "<group>"; };
+		4AC70F6D225A394A008F5971 /* SubProfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubProfilesViewController.swift; sourceTree = "<group>"; };
+		4ED1CFB756AF35CC58735A71 /* Pods_Marsh_iInsure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marsh_iInsure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6774184B8E7FAB5D8855DF5B /* Pods-Marsh_iInsureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsh_iInsureUITests.debug.xcconfig"; path = "Target Support Files/Pods-Marsh_iInsureUITests/Pods-Marsh_iInsureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97C996C67EABD86993B3AA38 /* Pods-Marsh_iInsureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsh_iInsureUITests.release.xcconfig"; path = "Target Support Files/Pods-Marsh_iInsureUITests/Pods-Marsh_iInsureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8D39936252E779A9FEBB3B7 /* Pods-Marsh_iInsureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsh_iInsureTests.debug.xcconfig"; path = "Target Support Files/Pods-Marsh_iInsureTests/Pods-Marsh_iInsureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB12BEE207E3377C5AE9959D /* Pods-Marsh_iInsure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsh_iInsure.debug.xcconfig"; path = "Target Support Files/Pods-Marsh_iInsure/Pods-Marsh_iInsure.debug.xcconfig"; sourceTree = "<group>"; };
+		AC310FCD0DC2FACAE90A30BC /* Pods-Marsh_iInsure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsh_iInsure.release.xcconfig"; path = "Target Support Files/Pods-Marsh_iInsure/Pods-Marsh_iInsure.release.xcconfig"; sourceTree = "<group>"; };
+		B80FE0D7ABE0681BB0EFA7C9 /* Pods-Marsh_iInsureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsh_iInsureTests.release.xcconfig"; path = "Target Support Files/Pods-Marsh_iInsureTests/Pods-Marsh_iInsureTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20484FA86F6930E27981F83F /* Pods_Marsh_iInsure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA412B5C36A3A468A74B770 /* Pods_Marsh_iInsureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9E2D8CEEEDEB3B2F8CE357 /* Pods_Marsh_iInsureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +116,8 @@
 				4AC70F3B22591FB5008F5971 /* Marsh_iInsureTests */,
 				4AC70F4622591FB5008F5971 /* Marsh_iInsureUITests */,
 				4AC70F2522591FB2008F5971 /* Products */,
+				7433A2A094B9D6E1E195CC9F /* Pods */,
+				81A8FA8E83AF5D4CCC996885 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +137,19 @@
 				4AC70F2722591FB2008F5971 /* AppDelegate.swift */,
 				4AC70F2922591FB2008F5971 /* ViewController.swift */,
 				4AC70F2B22591FB2008F5971 /* Main.storyboard */,
+				4AC70F6D225A394A008F5971 /* SubProfilesViewController.swift */,
+				4AC70F6B225A26E1008F5971 /* MainAccountHolderViewController.swift */,
+				4AC70F6922598C5C008F5971 /* AddInsuranceViewController.swift */,
+				4AC70F6722598C2F008F5971 /* CurrentInsuranceViewController.swift */,
+				4AC70F6522598C0C008F5971 /* ProfilesViewController.swift */,
+				4AC70F5D22594723008F5971 /* StartViewController.swift */,
+				4AC70F55225930B4008F5971 /* HomeViewController.swift */,
+				4AC70F5F22594A5D008F5971 /* LoginViewController.swift */,
+				4AC70F6122594A9D008F5971 /* SignUpViewController.swift */,
 				4AC70F2E22591FB4008F5971 /* Assets.xcassets */,
 				4AC70F3022591FB4008F5971 /* LaunchScreen.storyboard */,
 				4AC70F3322591FB4008F5971 /* Info.plist */,
+				4AC70F6322596029008F5971 /* GoogleService-Info.plist */,
 			);
 			path = Marsh_iInsure;
 			sourceTree = "<group>";
@@ -125,6 +172,29 @@
 			path = Marsh_iInsureUITests;
 			sourceTree = "<group>";
 		};
+		7433A2A094B9D6E1E195CC9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB12BEE207E3377C5AE9959D /* Pods-Marsh_iInsure.debug.xcconfig */,
+				AC310FCD0DC2FACAE90A30BC /* Pods-Marsh_iInsure.release.xcconfig */,
+				A8D39936252E779A9FEBB3B7 /* Pods-Marsh_iInsureTests.debug.xcconfig */,
+				B80FE0D7ABE0681BB0EFA7C9 /* Pods-Marsh_iInsureTests.release.xcconfig */,
+				6774184B8E7FAB5D8855DF5B /* Pods-Marsh_iInsureUITests.debug.xcconfig */,
+				97C996C67EABD86993B3AA38 /* Pods-Marsh_iInsureUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		81A8FA8E83AF5D4CCC996885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ED1CFB756AF35CC58735A71 /* Pods_Marsh_iInsure.framework */,
+				1CCFBC67D3977E985400AF0D /* Pods_Marsh_iInsureTests.framework */,
+				2064758C8787ED5572BBF1D2 /* Pods_Marsh_iInsureUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AC70F4C22591FB5008F5971 /* Build configuration list for PBXNativeTarget "Marsh_iInsure" */;
 			buildPhases = (
+				450914C31125FE99CBA46A4B /* [CP] Check Pods Manifest.lock */,
 				4AC70F2022591FB2008F5971 /* Sources */,
 				4AC70F2122591FB2008F5971 /* Frameworks */,
 				4AC70F2222591FB2008F5971 /* Resources */,
+				1B2D734B31A6FB70641BE0A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AC70F4F22591FB5008F5971 /* Build configuration list for PBXNativeTarget "Marsh_iInsureTests" */;
 			buildPhases = (
+				34FFA2AF8148BC5046CB4B6D /* [CP] Check Pods Manifest.lock */,
 				4AC70F3422591FB5008F5971 /* Sources */,
 				4AC70F3522591FB5008F5971 /* Frameworks */,
 				4AC70F3622591FB5008F5971 /* Resources */,
@@ -167,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AC70F5222591FB5008F5971 /* Build configuration list for PBXNativeTarget "Marsh_iInsureUITests" */;
 			buildPhases = (
+				6B0B3AFED666F932A17B252D /* [CP] Check Pods Manifest.lock */,
 				4AC70F3F22591FB5008F5971 /* Sources */,
 				4AC70F4022591FB5008F5971 /* Frameworks */,
 				4AC70F4122591FB5008F5971 /* Resources */,
@@ -230,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AC70F3222591FB4008F5971 /* LaunchScreen.storyboard in Resources */,
+				4AC70F6422596029008F5971 /* GoogleService-Info.plist in Resources */,
 				4AC70F2F22591FB4008F5971 /* Assets.xcassets in Resources */,
 				4AC70F2D22591FB2008F5971 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +326,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B2D734B31A6FB70641BE0A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marsh_iInsure/Pods-Marsh_iInsure-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marsh_iInsure/Pods-Marsh_iInsure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34FFA2AF8148BC5046CB4B6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marsh_iInsureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		450914C31125FE99CBA46A4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marsh_iInsure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B0B3AFED666F932A17B252D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marsh_iInsureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4AC70F2022591FB2008F5971 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC70F6A22598C5C008F5971 /* AddInsuranceViewController.swift in Sources */,
+				4AC70F6222594A9D008F5971 /* SignUpViewController.swift in Sources */,
+				4AC70F6822598C2F008F5971 /* CurrentInsuranceViewController.swift in Sources */,
 				4AC70F2A22591FB2008F5971 /* ViewController.swift in Sources */,
+				4AC70F56225930B4008F5971 /* HomeViewController.swift in Sources */,
+				4AC70F6622598C0C008F5971 /* ProfilesViewController.swift in Sources */,
 				4AC70F2822591FB2008F5971 /* AppDelegate.swift in Sources */,
+				4AC70F6C225A26E1008F5971 /* MainAccountHolderViewController.swift in Sources */,
+				4AC70F6022594A5D008F5971 /* LoginViewController.swift in Sources */,
+				4AC70F5E22594723008F5971 /* StartViewController.swift in Sources */,
+				4AC70F6E225A394A008F5971 /* SubProfilesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +619,7 @@
 		};
 		4AC70F4D22591FB5008F5971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB12BEE207E3377C5AE9959D /* Pods-Marsh_iInsure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +638,7 @@
 		};
 		4AC70F4E22591FB5008F5971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC310FCD0DC2FACAE90A30BC /* Pods-Marsh_iInsure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +657,7 @@
 		};
 		4AC70F5022591FB5008F5971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D39936252E779A9FEBB3B7 /* Pods-Marsh_iInsureTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +679,7 @@
 		};
 		4AC70F5122591FB5008F5971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80FE0D7ABE0681BB0EFA7C9 /* Pods-Marsh_iInsureTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +701,7 @@
 		};
 		4AC70F5322591FB5008F5971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6774184B8E7FAB5D8855DF5B /* Pods-Marsh_iInsureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +722,7 @@
 		};
 		4AC70F5422591FB5008F5971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C996C67EABD86993B3AA38 /* Pods-Marsh_iInsureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
